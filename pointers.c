@@ -2,7 +2,7 @@
 void change(int x,int y)    //formal perameters
 {
     x=20;
-    y=10;
+    y=30; //changes
 }
 void inter(int *x,int *y)   //here passing the addresses
 {
