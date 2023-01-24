@@ -1,7 +1,7 @@
 #include <stdio.h>
 void change(int x,int y)    //formal perameters
 {
-    x=20;
+    x=22; //conflict example change
     y=30; //changes
 }
 void inter(int *x,int *y)   //here passing the addresses
