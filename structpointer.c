@@ -4,8 +4,8 @@
 #include <stdlib.h>
 struct Student
 {
-    char StudentName[25];
-    int RegNo;
+    char student_name[25];
+    int reg_no;
     int m1,m2,m3;
 };
 typedef struct Student Student;
@@ -20,13 +20,13 @@ int main()
     {
         
         printf("\nStudent Name:");
-        scanf("%s",((s+i)->StudentName));
+        scanf("%s",((s+i)->student_name));
         printf("\nRegno:");
-        scanf("%d",&((s+i)->RegNo));
+        scanf("%d",&((s+i)->reg_no));
     }
     for(i=0;i<n;i++)
     {
-    printf("%s\n",((s+i)->StudentName));
-    printf("%d\n",((s+i)->RegNo));
+    printf("%s\n",((s+i)->student_name));
+    printf("%d\n",((s+i)->reg_no));
     }
 }
